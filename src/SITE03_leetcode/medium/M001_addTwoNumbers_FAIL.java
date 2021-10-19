@@ -3,9 +3,9 @@ package SITE03_leetcode.medium;
 /**
  * https://leetcode.com/problems/add-two-numbers/
  */
-public class M001_addTwoNumbers {
+public class M001_addTwoNumbers_FAIL {
     public static void main(String[] args) {
-        M001_addTwoNumbers solution = new M001_addTwoNumbers();
+        M001_addTwoNumbers_FAIL solution = new M001_addTwoNumbers_FAIL();
         ListNode listNode1 = new ListNode();
         listNode1.val = 2;
         listNode1.next = new ListNode();
