@@ -11,8 +11,8 @@ public class M004_leetCode4_median_of_two_sorted_arrays_다른풀이 {
     public static void main(String[] args) {
         M004_leetCode4_median_of_two_sorted_arrays_다른풀이 solution = new M004_leetCode4_median_of_two_sorted_arrays_다른풀이();
 
-        int[] a = new int[]{1, 3};
-        int[] b = new int[]{2};
+        int[] a = new int[]{1, 2};
+        int[] b = new int[]{3, 4};
 
         System.out.println(solution.findMedianSortedArrays(a, b));
     }
@@ -21,7 +21,7 @@ public class M004_leetCode4_median_of_two_sorted_arrays_다른풀이 {
         int m = nums1.length; // nums1 배열의 크기
         int n = nums2.length; // nums2 배열의 크기
 
-        int k = (m + n) / 2; // 위 두 배열의 크기를 2로 나눈 값
+        int k = (m + n) / 2; // 위 두 배열의 크기를 2로 나눈 값 (중간값)
         int i = 0;
         int j = k;
         int lo = 0;
