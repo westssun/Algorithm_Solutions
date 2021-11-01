@@ -13,7 +13,8 @@ public class Notion_00001 {
         int[][] a = new int[][] { {100,3}, {200,1}, {50,2} };
         int[][] b = new int[][] { {2500,3}, {700,5}};
         int[][] c = new int[][] { {1500,4}, {500,1}, {50,1}};
-        System.out.println(lesson.solution(c));
+        int[][] d = new int[][] { {100,5}, {500,2}, {800,4}};
+        System.out.println(lesson.solution(d));
     }
 
     public int solution(int[][] arr1) {
@@ -85,6 +86,8 @@ public class Notion_00001 {
         }
 
         System.out.println("finalSum - answer :"  + (finalSum - answer));
+
+        // Math.abs(sumB - sumA);
         return finalSum - answer;
     }
 }
