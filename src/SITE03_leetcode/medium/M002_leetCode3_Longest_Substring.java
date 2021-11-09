@@ -1,5 +1,7 @@
 package SITE03_leetcode.medium;
 
+import SITE03_leetcode.common.ListNode;
+
 import java.util.*;
 
 /**

@@ -1,5 +1,7 @@
 package SITE03_leetcode.medium;
 
+import SITE03_leetcode.common.ListNode;
+
 /**
  * https://leetcode.com/problems/add-two-numbers/
  */
@@ -76,10 +78,3 @@ public class M001_addTwoNumbers_FAIL {
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-}
