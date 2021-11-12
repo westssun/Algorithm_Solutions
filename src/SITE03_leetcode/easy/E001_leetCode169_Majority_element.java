@@ -1,16 +1,14 @@
 package SITE03_leetcode.easy;
 
-import SITE03_leetcode.medium.M004_leetCode4_median_of_two_sorted_arrays;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
 /**
  * https://leetcode.com/problems/majority-element/
  */
-public class E001_leetCode165_Majority_element {
+public class E001_leetCode169_Majority_element {
     public static void main(String[] args) {
-        E001_leetCode165_Majority_element solution = new E001_leetCode165_Majority_element();
+        E001_leetCode169_Majority_element solution = new E001_leetCode169_Majority_element();
 
         int[] a = new int[]{2,2,1,1,1,2,2};
 
