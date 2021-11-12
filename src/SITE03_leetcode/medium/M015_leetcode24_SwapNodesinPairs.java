@@ -2,15 +2,12 @@ package SITE03_leetcode.medium;
 
 import SITE03_leetcode.common.ListNode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * https://leetcode.com/problems/generate-parentheses/
  */
-public class M024_leetcode24_SwapNodesinPairs {
+public class M015_leetcode24_SwapNodesinPairs {
     public static void main(String[] args) {
-        M024_leetcode24_SwapNodesinPairs solution = new M024_leetcode24_SwapNodesinPairs();
+        M015_leetcode24_SwapNodesinPairs solution = new M015_leetcode24_SwapNodesinPairs();
 
         ListNode listNode1 = new ListNode();
         listNode1.val = 1;

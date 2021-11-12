@@ -1,16 +1,14 @@
 package SITE03_leetcode.medium;
 
-import SITE03_leetcode.common.ListNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * https://leetcode.com/problems/generate-parentheses/
  */
-public class M022_Generate_Parentheses {
+public class M014_leetCode22_Generate_Parentheses {
     public static void main(String[] args) {
-        M022_Generate_Parentheses solution = new M022_Generate_Parentheses();
+        M014_leetCode22_Generate_Parentheses solution = new M014_leetCode22_Generate_Parentheses();
 
         System.out.println(solution.generateParenthesis(3));
     }

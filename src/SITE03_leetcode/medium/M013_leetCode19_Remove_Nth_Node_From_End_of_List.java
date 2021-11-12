@@ -5,9 +5,9 @@ import SITE03_leetcode.common.ListNode;
 /**
  * https://leetcode.com/problems/4sum/submissions/
  */
-public class M019_Remove_Nth_Node_From_End_of_List {
+public class M013_leetCode19_Remove_Nth_Node_From_End_of_List {
     public static void main(String[] args) {
-        M019_Remove_Nth_Node_From_End_of_List solution = new M019_Remove_Nth_Node_From_End_of_List();
+        M013_leetCode19_Remove_Nth_Node_From_End_of_List solution = new M013_leetCode19_Remove_Nth_Node_From_End_of_List();
 
         ListNode listNode1 = new ListNode();
         listNode1.val = 1;
