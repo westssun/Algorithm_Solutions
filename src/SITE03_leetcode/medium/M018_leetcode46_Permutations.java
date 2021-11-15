@@ -17,8 +17,8 @@ public class M018_leetcode46_Permutations {
     public static void main(String[] args) {
         M018_leetcode46_Permutations solution = new M018_leetcode46_Permutations();
 
-        //int[] dx = {1,2,3};
-        int[] dx = {0,1};
+        int[] dx = {1,2,3};
+        //int[] dx = {0,1};
 
         System.out.println(solution.permute(dx));
     }
