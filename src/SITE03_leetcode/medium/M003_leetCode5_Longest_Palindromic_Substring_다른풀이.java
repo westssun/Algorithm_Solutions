@@ -28,15 +28,15 @@ public class M003_leetCode5_Longest_Palindromic_Substring_다른풀이 {
         return s.substring(lo, lo + maxLen);
     }
 
-    private void extendPalindrome(String s, int j, int k) {
-        while (j >= 0 && k < s.length() && s.charAt(j) == s.charAt(k)) {
-            j--;
-            k++;
+    private void extendPalindrome(String s, int start, int end) {
+        while (start >= 0 && end < s.length() && s.charAt(start) == s.charAt(end)) {
+            start--;
+            end++;
         }
 
-        if (maxLen < k - j - 1) {
-            lo = j + 1;
-            maxLen = k - j - 1;
+        if (maxLen < end - start - 1) {
+            lo = start + 1;
+            maxLen = end - start - 1;
         }
     }
 }
