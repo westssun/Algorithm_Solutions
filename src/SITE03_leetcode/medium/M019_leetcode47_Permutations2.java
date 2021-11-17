@@ -1,13 +1,12 @@
 package SITE03_leetcode.medium;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
  * https://leetcode.com/problems/permutations/
  */
-public class M019_leetcode47_Permutations {
+public class M019_leetcode47_Permutations2 {
     List<List<Integer>> resultList = new ArrayList<List<Integer>>();
     List<Integer> paramList = new ArrayList<>();
     int[] map;
@@ -15,7 +14,7 @@ public class M019_leetcode47_Permutations {
     boolean[] visited;
 
     public static void main(String[] args) {
-        M019_leetcode47_Permutations solution = new M019_leetcode47_Permutations();
+        M019_leetcode47_Permutations2 solution = new M019_leetcode47_Permutations2();
 
         int[] dx = {1,1,2};
         //int[] dx = {0,1};
