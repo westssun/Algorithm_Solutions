@@ -12,6 +12,25 @@ public class M020_leetcode43_MultiplyStrings {
         // System.out.println(solution.multiply("98", "9")); //  iPow + 2
     }
 
+    /*
+            1 2 3 n1 i
+            4 5 6 n2 j
+            length n1 + n2 + 1
+            9 * 9 = 81 (length1 * length1 = length2)
+
+            123 * 6
+            123 * 5
+            123 * 4
+
+            123 * 6
+
+              7 3 8
+            6 1 5
+          4 9 2
+
+
+         */
+
     public String multiply(String num1, String num2) {
         int[] ans = new int[num1.length() + num2.length()];
 
