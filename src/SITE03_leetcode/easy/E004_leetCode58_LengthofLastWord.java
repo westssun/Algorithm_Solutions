@@ -30,4 +30,11 @@ public class E004_leetCode58_LengthofLastWord {
         return result;
     }
 
+    public int lengthOfLastWord2(String s) {
+        if (null == s || s.trim().length() == 0) return 0;
+
+        s = s.trim();
+        String lastWord = s.substring(s.lastIndexOf(" ") + 1);
+        return lastWord.length();
+    }
 }
