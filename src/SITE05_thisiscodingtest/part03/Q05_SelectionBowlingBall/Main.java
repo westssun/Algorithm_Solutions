@@ -69,6 +69,10 @@ public class Main {
         for (int i = 1; i < N + 1; i++) {
             int value = scanner.nextInt();
 
+            if (value > M) {
+                throw new Exception();
+            }
+
             arrA[i] = value;
             arrB[i] = value;
         }
